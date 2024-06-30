@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bible Lines</title>
+
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="greeting"></h1>
+    </header>
+
+    <main>
+      <div>
+<p id="passage">
+      </p>
+
+      <p id="verse"></p>
+
+      </div>
+      
+
+      <!-- Canvas element where the animation will be rendered -->
+      <canvas
+        id="dotlottie-canvas"
+        style="width: 300px; height: 300px"
+       
+      ></canvas>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
